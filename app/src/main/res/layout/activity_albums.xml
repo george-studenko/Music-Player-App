@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2">
+    <LinearLayout android:id="@+id/albumsList"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="@string/albumsExplanation"
+            style="@style/explanationText" />
+
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout style="@style/grayBox"
+                android:id="@+id/album1">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/album"
+                    android:background="@color/transparentBlack"/>
+                <TextView
+                    android:id="@+id/albumTextView"
+                    android:text="Artist Name 1"
+                    style="@style/artistName" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/grayBox"
+                android:id="@+id/album2">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/album"
+                    android:background="@color/transparentBlack"/>
+                <TextView
+                    android:id="@+id/albumTextView2"
+                    android:text="Artist Name 2"
+                    style="@style/artistName" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

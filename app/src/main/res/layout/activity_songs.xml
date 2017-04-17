@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg2">
+    <LinearLayout android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/songs_activity_explanation"
+            style="@style/explanationText"/>
+        <RelativeLayout style="@style/songBox">
+            <ImageView
+                android:src="@drawable/song"
+                style="@style/songStyle" />
+            <TextView
+                android:text="@string/song_name_1"
+                style="@style/songName" />
+            <ImageView
+                android:id="@+id/play1"
+                android:src="@drawable/play"
+                style="@style/songPlay" />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/songBox">
+            <ImageView
+                android:src="@drawable/song"
+                style="@style/songStyle" />
+            <TextView
+                android:text="@string/song_name_2"
+                style="@style/songName" />
+            <ImageView
+                android:id="@+id/play2"
+                android:src="@drawable/play"
+                style="@style/songPlay" />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/songBox">
+            <ImageView
+                android:src="@drawable/song"
+                style="@style/songStyle" />
+            <TextView
+                android:text="@string/song_name_3"
+                style="@style/songName" />
+            <ImageView
+                android:id="@+id/play3"
+                android:src="@drawable/play"
+                style="@style/songPlay" />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/songBox">
+            <ImageView
+                android:src="@drawable/song"
+                style="@style/songStyle" />
+            <TextView
+                android:text="@string/song_name_4"
+                style="@style/songName" />
+            <ImageView
+                android:id="@+id/play4"
+                android:src="@drawable/play"
+                style="@style/songPlay" />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/songBox">
+            <ImageView
+                android:src="@drawable/song"
+                style="@style/songStyle" />
+            <TextView
+                android:text="@string/song_name_5"
+                style="@style/songName" />
+            <ImageView
+                android:id="@+id/play5"
+                android:src="@drawable/play"
+                style="@style/songPlay" />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/songBox">
+            <ImageView
+                android:src="@drawable/song"
+                style="@style/songStyle" />
+            <TextView
+                android:text="@string/song_name_6"
+                style="@style/songName" />
+            <ImageView
+                android:id="@+id/play6"
+                android:src="@drawable/play"
+                style="@style/songPlay" />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/songBox">
+            <ImageView
+                android:src="@drawable/song"
+                style="@style/songStyle" />
+            <TextView
+                android:text="@string/song_name_7"
+                style="@style/songName" />
+            <ImageView
+                android:id="@+id/play7"
+                android:src="@drawable/play"
+                style="@style/songPlay" />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/songBox">
+            <ImageView
+                android:src="@drawable/song"
+                style="@style/songStyle" />
+            <TextView
+                android:text="@string/song_name_8"
+                style="@style/songName" />
+            <ImageView
+                android:id="@+id/play8"
+                android:src="@drawable/play"
+                style="@style/songPlay" />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/songBox">
+            <ImageView
+                android:src="@drawable/song"
+
+                style="@style/songStyle" />
+            <TextView
+                android:text="@string/song_name_9"
+                style="@style/songName" />
+            <ImageView
+                android:id="@+id/play9"
+                android:src="@drawable/play"
+                style="@style/songPlay" />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/songBox">
+            <ImageView
+                android:src="@drawable/song"
+                style="@style/songStyle" />
+            <TextView
+                android:text="@string/song_name_10"
+                style="@style/songName" />
+            <ImageView
+                android:id="@+id/play10"
+                android:src="@drawable/play"
+                style="@style/songPlay" />
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>

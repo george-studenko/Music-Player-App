@@ -1,4 +1,4 @@
-package com.georgestudenko.musciplayer;
+package com.georgestudenko.musicplayer;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

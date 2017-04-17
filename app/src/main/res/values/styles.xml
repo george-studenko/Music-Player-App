@@ -32,4 +32,111 @@
         <item name="android:paddingRight">4dp</item>
     </style>
 
+    <style name="explanationText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/transparentBlack</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_margin">4dp</item>
+    </style>
+
+    <style name="transparentBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:background">@color/transparentBlack</item>
+    </style>
+
+    <style name="songStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+
+    <style name="songName">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:layout_marginLeft">35dp</item>
+        <item name="android:layout_marginStart">35dp</item>
+        <item name="android:layout_centerVertical">true</item>
+
+    </style>
+
+    <style name="songPlay">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+
+    <style name="songBox">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/transparentBlack</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+    </style>
+
+    <style name="buttonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="nowPlayingSongInfo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@color/transparentBlack</item>
+    </style>
+
+    <style name="nowPlayingControlsBox">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@color/transparentBlack</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="nowPlayingTopImage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:background">@color/transparentBlack</item>
+    </style>
+
+    <style name="nowPlayingPlayButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+
 </resources>

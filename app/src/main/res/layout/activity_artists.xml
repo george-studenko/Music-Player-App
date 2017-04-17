@@ -8,15 +8,18 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <TextView
+            android:text="@string/artists_info"
+            style="@style/explanationText" />
+
         <LinearLayout android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            <RelativeLayout style="@style/grayBox">
+            <RelativeLayout style="@style/grayBox"
+                android:id="@+id/artist1">
                 <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="200dp"
                     android:src="@drawable/artist"
-                    android:background="@color/black"/>
+                    style="@style/transparentBox" />
                 <TextView
                     android:id="@+id/textView"
                     android:text="Artist Name 1"
@@ -24,12 +27,11 @@
 
             </RelativeLayout>
 
-            <RelativeLayout style="@style/grayBox">
+            <RelativeLayout style="@style/grayBox"
+                android:id="@+id/artist2">
                 <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="200dp"
                     android:src="@drawable/artist"
-                    android:background="@color/black"/>
+                    style="@style/transparentBox" />
                 <TextView
                     android:id="@+id/textView2"
                     android:text="Artist Name 2"
@@ -41,24 +43,22 @@
         <LinearLayout android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            <RelativeLayout style="@style/grayBox">
+            <RelativeLayout style="@style/grayBox"
+                android:id="@+id/artist3">
                 <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="200dp"
                     android:src="@drawable/artist"
-                    android:background="@color/black"/>
+                    style="@style/transparentBox" />
                 <TextView
                     android:id="@+id/textView3"
                     android:text="Artist Name 3"
                     style="@style/artistName" />
             </RelativeLayout>
 
-            <RelativeLayout style="@style/grayBox">
+            <RelativeLayout style="@style/grayBox"
+                android:id="@+id/artist4">
                 <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="200dp"
                     android:src="@drawable/artist"
-                    android:background="@color/black"/>
+                    style="@style/transparentBox" />
                 <TextView
                     android:id="@+id/textView4"
                     android:text="Artist Name 4"
@@ -70,24 +70,22 @@
         <LinearLayout android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            <RelativeLayout style="@style/grayBox">
+            <RelativeLayout style="@style/grayBox"
+                android:id="@+id/artist5">
                 <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="200dp"
                     android:src="@drawable/artist"
-                    android:background="@color/black"/>
+                    style="@style/transparentBox" />
                 <TextView
                     android:id="@+id/textView5"
                     android:text="Artist Name 5"
                     style="@style/artistName" />
             </RelativeLayout>
 
-            <RelativeLayout style="@style/grayBox">
+            <RelativeLayout style="@style/grayBox"
+                android:id="@+id/artist6">
                 <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="200dp"
                     android:src="@drawable/artist"
-                    android:background="@color/black"/>
+                    style="@style/transparentBox" />
                 <TextView
                     android:id="@+id/textView6"
                     android:text="Artist Name 6"
@@ -99,24 +97,22 @@
         <LinearLayout android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            <RelativeLayout style="@style/grayBox">
+            <RelativeLayout style="@style/grayBox"
+                android:id="@+id/artist7">
                 <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="200dp"
                     android:src="@drawable/artist"
-                    android:background="@color/black"/>
+                    style="@style/transparentBox" />
                 <TextView
                     android:id="@+id/textView7"
                     android:text="Artist Name 7"
                     style="@style/artistName" />
             </RelativeLayout>
 
-            <RelativeLayout style="@style/grayBox">
+            <RelativeLayout style="@style/grayBox"
+                android:id="@+id/artist8">
                 <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="200dp"
                     android:src="@drawable/artist"
-                    android:background="@color/black"/>
+                    style="@style/transparentBox" />
                 <TextView
                     android:id="@+id/textView8"
                     android:text="Artist Name 8"

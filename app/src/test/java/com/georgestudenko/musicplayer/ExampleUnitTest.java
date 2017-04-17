@@ -1,4 +1,4 @@
-package com.georgestudenko.musciplayer;
+package com.georgestudenko.musicplayer;
 
 import org.junit.Test;
 
