@@ -2,7 +2,7 @@
     <string name="app_name">Music Player</string>
     <string name="artists_info">Artists Activity: this lists all the artist from the audio files in the device. This will be loaded with a CursorLoader using the MediaStore content provider. As for the list will be implemented with a RecyclerView</string>
     <string name="albumsExplanation">Albums Activity: lists the artist\'s albums, should be dynamically loaded from the MediaContent provider query using a RecyclerView</string>
-    <string name="now_playing_explanation">Now Playing Activity: where the song will play, will show an image on top (album or artist) and below it will show the song, artist and album information, the player will be controlled using the skip-backwards, play/pause and skip-forward buttons below</string>
+    <string name="now_playing_explanation">Now Playing Activity: where the song will play, will show an image on top (album or artist) and below it will show the song, artist and album information, the player will be controlled using the skip-backwards, play/pause and skip-forward buttons below. Will use the MediaPlayer class to play audio.</string>
     <string name="songs_activity_explanation">Songs Activity: Shows the list of songs from the album, the play button should start playing the selected song</string>
     <string name="song_name_1">Song Name 1</string>
     <string name="song_name_2">Song Name 2</string>
