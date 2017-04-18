@@ -19,11 +19,6 @@ public class PlayerActivity extends AppCompatActivity {
 
         playingNowSongName = (TextView) findViewById(R.id.playingNowSongName);
 
-//        if(getIntent()!=null){
-//            String songName = getIntent().getStringExtra(Intent.EXTRA_TEXT);
-//            playingNowSongName.setText(songName);
-//        }
-
         ImageView play = (ImageView) findViewById(R.id.playButton);
 
         play.setOnClickListener(new View.OnClickListener() {
